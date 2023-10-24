@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "Inter-Regular";
+  src: url("./fonts/Inter-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter-Bold";
+  src: url("./fonts/Inter-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter-ExtraBold";
+  src: url("./fonts/Inter-ExtraBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+//*-----------------> fonts
+$fontIR: "Inter-Regular", sans-serif;
+$fontIB: "Inter-Bold", sans-serif;
+$fontIEB: "Inter-ExtraBold", sans-serif;
+
+//*-----------------> colors
+  //-----> primary
+  $sf-orange: hsl(35, 77%, 62%);
+  $sf-red: hsl(5, 85%, 63%);
+
+  //-----> neutral
+  $off-white: hsl(36, 100%, 99%);
+  $gr-blue: hsl(233, 8%, 79%);
+  $dr-gr-blue: hsl(236, 13%, 42%);
+  $vr-dr-blue: hsl(240, 100%, 5%);

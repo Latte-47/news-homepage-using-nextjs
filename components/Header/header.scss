@@ -1,0 +1,45 @@
+@use "/app/scss/variables" as *;
+
+header {
+  width: calc(100vw - 150px - 150px);
+  height: calc(100px + 50px);
+  background-color: $off-white;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  
+  .header-main {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+
+    .header-logo {
+      cursor: pointer;
+    }
+
+    .header-navlinks {
+
+      .navlinks {
+        display: flex;
+        flex-direction: row;
+        gap: 3.5rem;
+        list-style: none;
+        color: $dr-gr-blue;
+
+        .nav-items {
+          cursor: pointer;
+
+          &:hover {
+            color: $sf-red;
+          }
+        }
+      }
+    }
+  }
+}

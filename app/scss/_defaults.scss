@@ -1,0 +1,12 @@
+@use "./variables" as *;
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 70px 150px;
+  padding: 0;
+  font-family: $fontIR;
+  background-color: $off-white;
+}
