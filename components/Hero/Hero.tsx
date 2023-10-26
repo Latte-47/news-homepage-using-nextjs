@@ -1,7 +1,10 @@
+"use client";
+
 import Image from "next/image";
 import "./hero.scss";
 
-import headImg from "@/public/assets/images/image-web-3-desktop.jpg";
+import headImgDesktop from "@/public/assets/images/image-web-3-desktop.jpg";
+import headImgMobile from "@/public/assets/images/image-web-3-mobile.jpg";
 import retroImg from "@/public/assets/images/image-retro-pcs.jpg";
 import laptopImg from "@/public/assets/images/image-top-laptops.jpg";
 import gamingImg from "@/public/assets/images/image-gaming-growth.jpg";
@@ -10,7 +13,16 @@ export default function Hero() {
   return (
     <section id="hero">
       <div className="headline-img">
-        <Image src={headImg} alt="headImg" />
+        <Image
+          className="head-img-desktop"
+          src={headImgDesktop}
+          alt="headImgDesktop"
+        />
+        <Image
+          className="head-img-mobile"
+          src={headImgMobile}
+          alt="headImgMobile"
+        />
       </div>
       <div className="headline-title">
         <h3>The Bright Future of Web 3.0?</h3>
